@@ -1,4 +1,4 @@
-# Ark-Plugin-TribeSlotCooldown
+# Ark-Plugin-Cuddle
 
 # How to compile: 
 
