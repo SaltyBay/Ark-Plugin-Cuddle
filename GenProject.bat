@@ -14,7 +14,7 @@ set ProjectName=CuddlePlugin
 REM ========================================================
 REM configure description
 REM ========================================================
-set Description=overwrite dino walking
+set Description=plugin to customize dino cuddle
 
 REM ========================================================
 REM configure Version
