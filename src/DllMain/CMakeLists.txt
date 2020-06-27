@@ -6,10 +6,10 @@ target_include_directories(${ProjectName}
 )
 
 set( SOURCE_FILES
-   ${CMAKE_CURRENT_SOURCE_DIR}/OverwriteCuddleWalking.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/CuddlePlugin.cpp
 )
 set( HEADE_FILES
-   ${CMAKE_CURRENT_SOURCE_DIR}/OverwriteCuddleWalking.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/CuddlePlugin.h
 )
 
 target_sources(${ProjectName}

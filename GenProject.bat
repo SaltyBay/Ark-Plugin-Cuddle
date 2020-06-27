@@ -24,7 +24,7 @@ set Version=1.0
 REM ========================================================
 REM configure min api version
 REM ========================================================
-set MinApiVersion=2.6
+set MinApiVersion=3.4
 
 REM ========================================================
 REM configure ResourceId

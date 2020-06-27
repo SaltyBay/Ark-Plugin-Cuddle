@@ -1,4 +1,7 @@
 {
+   "General":{
+	 "ReplaceCuddleTypeWalk": true
+   },
    "Footlist":[
       "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall'",
       "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special'",
@@ -8,449 +11,421 @@
       "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large'"
    ],
    "Dinolist":{
-      "Achatina":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
       "Allo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Angler":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
-      "Ankylo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Spider":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+      "Anky":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Archa":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Argent":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Arthro":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Baryonyx":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Basilosaurus":{
-         "CuddleIntervalTime":60,
+         "CuddleIntervalTime":30,
          "CuddleIncreasePercent":0.25
       },
       "Toad":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dodo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Ovi":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Bronto":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Chalicotherium":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Turtle":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Carno":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Beaver":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Compy":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Daeodon":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dilo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dimetro":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dimorph":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Diplocaulus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Diplo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
-      "Direbear":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+	  "Direbear":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
+      },
+      "Direwolf":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Doed":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dunkle":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Equus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Galli":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Gigant":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.17
       },
       "Bigfoot":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Hesperornis":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Hyaenodon":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Ichthyornis":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Dolphin":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Iguanodon":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Kairu":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Kaprosuchus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Kentro":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Lystro":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Mammoth":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Manta":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Megalania":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Stag":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Mega":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Megalosaurus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Megatherium":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Monkey":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Microraptor":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Mosasaur":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.17
       },
       "Moschops":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Otter":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Sheep":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Pachy":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Pachyrhinosaurus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Paracer":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Para":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Pegomastax":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Pela":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Phiomia":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Plesiosaur":{
-         "CuddleIntervalTime":60,
+         "CuddleIntervalTime":30,
          "CuddleIncreasePercent":0.25
       },
       "Kangaroo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Ptera":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Scorpion":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Purlovia":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Quetz":{
-         "CuddleIntervalTime":60,
+         "CuddleIntervalTime":30,
          "CuddleIncreasePercent":0.25
       },
       "Raptor":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":1,
+         "CuddleIncreasePercent":1
       },
       "Rex":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Sabertooth":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Sarco":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Spino":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Stego":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Tapejara":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "TerrorBird":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Therizinosaurus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Thylacoleo":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "TitanBoa":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Trike":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Troodon":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":20,
+         "CuddleIncreasePercent":1
       },
       "Tusoteuthis":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.17
       },
       "Rhino":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Yutyrannus":{
-         "CuddleIntervalTime":60,
+         "CuddleIntervalTime":30,
          "CuddleIncreasePercent":0.25
       },
       "Wyvern":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Jerboa":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Jugbug":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Moth":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Mantis":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Camelsaurus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "SpineyLizard":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
-      "Basilisk":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+	  "Vulture":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Pug":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Lantern Bird":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Lantern Lizard":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "CaveCrab":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "CaveWolf":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Xenomorph":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "RockDrake":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "MoleRat":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Lantern Goat":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Gacha":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "GasBags":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
+      },	  
+      "Managarmr":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Owl":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Velonasaur":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Deinonychus":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
-      },
-      "Space Whale":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Bloodstalker":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":1
       },
       "Gremlin":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "Bigly":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       },
       "LavaLizard":{
-         "CuddleIntervalTime":60,
+         "CuddleIntervalTime":30,
          "CuddleIncreasePercent":0.25
       },
       "GiantTurtle":{
-         "CuddleIntervalTime":60,
-         "CuddleIncreasePercent":0.25
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
+      },
+	  "Tropeognathus":{
+         "CuddleIntervalTime":30,
+         "CuddleIncreasePercent":0.5
       }
    }
 }
